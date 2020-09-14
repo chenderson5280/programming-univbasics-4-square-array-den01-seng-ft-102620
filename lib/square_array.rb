@@ -1,8 +1,19 @@
 def square_array(array)
-count = 0
-while count < array.length do
- Math.sqrt(array[count])
- count+=1
+array.each do |i|
+  i **2
 end
 array
 end
+
+
+
+
+
+
+
+#count = 0
+#while count < array.length do
+ #Math.sqrt(array[count])
+ #count+=1
+#end
+#array
