@@ -1,5 +1,6 @@
 def square_array(array)
+new_array=[]
 array.length.times do
-  |index| Math.sqrt(array[index])
-array
+  |index| new_array << Math.sqrt(array[index])
+new_array
 end
