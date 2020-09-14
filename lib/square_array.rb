@@ -1,3 +1,3 @@
 def square_array(array)
-array.length.times {|index| Math.sqrt(array[index])}
+array.length.times {|index| puts Math.sqrt(array[index])}
 end
