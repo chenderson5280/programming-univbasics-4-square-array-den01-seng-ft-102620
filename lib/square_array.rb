@@ -5,5 +5,5 @@ while count > array.length do
  result<<Math.sqrt(array[count])
  count+=1
 end
-array
+result
 end
